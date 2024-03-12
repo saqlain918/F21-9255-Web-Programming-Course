@@ -9,7 +9,6 @@ function validateSignUp() {
     alert("Invalid email format.");
     return false;
   }
-
   // check Password
   var passwordRegex = /^(?=.[!@#$%^&])(?=.*[0-9]).{6,}$/;
   if (!passwordRegex.test(signUpPassword)) {
