@@ -3,7 +3,7 @@ function validateSignUp() {
   var signUpPassword = document.getElementById("password").value;
   var age = document.getElementById("Age").value;
 
-  // check email
+  // checking email
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
     alert("Invalid email format.");
