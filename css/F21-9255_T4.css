@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("img/T4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mes {
+  color: rgb(8, 94, 199);
+  padding: 20px;
+  font-size: 30px;
+}
+h1 {
+  text-align: center;
+  padding-top: 11px;
+  color: firebrick;
+}
+.container {
+  display: flex;
+}
+.container .section {
+  width: 348px;
+  margin: 19px 49px;
+}
+.section .info {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  height: 49px;
+  justify-content: center;
+}
+.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 221px;
+}
+.show i {
+  font-size: 98px;
+  color: darkcyan;
+}
+#PlayerScore,
+#ComputerScore {
+  padding-left: 2.5px;
+}
+#mes1 {
+  color: rgb(8, 94, 8);
+  padding: 19px;
+  font-size: 22px;
+}
+.selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 348px;
+  height: 101px;
+}
+.selection button {
+  margin: 0 19px;
+  padding: 23px;
+  border-radius: 52%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: darkgrey;
+  font-size: 37px;
+  color: darkcyan;
+}
+#ballon-img {
+  position: absolute;
+  bottom: 19px;
+  left: 0.5px;
+}
