@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/task3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  color: orangered;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+  position: relative;
+  padding-bottom: 5em;
+}
+
+.timedet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time {
+  font-size: 5em;
+}
+
+.date {
+  font-weight: 399;
+  position: absolute;
+  bottom: 0;
+  left: 52%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 2em;
+  text-align: center;
+}
